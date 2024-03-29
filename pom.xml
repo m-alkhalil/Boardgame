@@ -127,10 +127,10 @@
 			<id> maven-releases</id>
 			<url>http://34.227.159.199:8081/repository/maven-releases/</url>
 		</repository>
-		<snapshopRepository>
+		<snapshotsRepository>
 			<id> maven-snapshots</id>
 			<url>http://34.227.159.199:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
+		</snapshotsRepository>
 </distributionManagement>
 
 </project>
