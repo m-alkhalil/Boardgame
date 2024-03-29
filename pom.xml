@@ -117,11 +117,20 @@
 	</build>
 
 	<distributionManagement>
-   <repository>
+   <!--<repository>
      <id>github</id>
      <name>GitHub OWNER Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/jaiswaladi246/Boardgame</url>
    </repository>
+		-->
+		<repository>
+			<id> maven-releases</id>
+			<url>http://44.201.121.72:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshopRepository>
+			<id> maven-snapshots</id>
+			<url>http://44.201.121.72:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
 </distributionManagement>
 
 </project>
